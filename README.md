@@ -1,7 +1,7 @@
 # bigdata_notes
 大数据笔记，持续更新
 
-**1.Hadoop**   
+**1.[Hadoop](./hadoop/hdfs.md)**   
 **2.Zookeeper**   
 **3.Hive**   
 **4.Spark**  

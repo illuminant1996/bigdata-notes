@@ -15,15 +15,15 @@ hdfs是hadooop分布式大数据存储系统，用于存储hadoop中的数据
 hadoop1.x中的，不做过多阐述
 ### _datanode:_
 datanode负责存储数据的block块，接收namenode发来的读写请求，进行读写数据<br>
-[DN故障处理](./pictures/dn_error.jpg)
-### _[block](./pictures/duplication_strategy.jpg):_<br>
+[DN故障处理](../pictures/dn_error.jpg)
+### _[block](../pictures/duplication_strategy.jpg):_<br>
 hdfs上存储数据的最小单元，每份数据文件可以被切分成一个或多个不同的block块，每个不同的block会有副本
 ### _journalnode:_
 负责同步active namenode和standby namenode之间的editlog，便于hdfs保持高可用
 
 ## 读写流程
-[图解hdfs读数据](./pictures/read.jpg)<br>
-[图解hdfs写数据1](./pictures/write1.jpg)<br>
-[图解hdfs写数据2](./pictures/write2.jpg)<br>
-[图解hdfs写数据3](./pictures/write3.jpg)<br>
-[hdfs读写故障](./pictures/rw_error.jpg)
+[图解hdfs读数据](../pictures/read.jpg)<br>
+[图解hdfs写数据1](../pictures/write1.jpg)<br>
+[图解hdfs写数据2](../pictures/write2.jpg)<br>
+[图解hdfs写数据3](../pictures/write3.jpg)<br>
+[hdfs读写故障](../pictures/rw_error.jpg)

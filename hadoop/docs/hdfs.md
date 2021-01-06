@@ -10,7 +10,7 @@ hdfs是hadooop分布式大数据存储系统，用于存储hadoop中的数据
 2.保存分布式系统的元数据信息，包括文件归属和权限，文件由几个block块<br>
 3.block块的位置<br>
 4.fsimage：是内存命名空间元数据在外存的镜像文件<br>
-  editlog：则是各种元数据操作的 write-ahead-log 文件，在体现到内存数据变化前首先会将操作记入 editlog 中，以防止数据丢失。<br>
+5.editlog：则是各种元数据操作的 write-ahead-log 文件，在体现到内存数据变化前首先会将操作记入 editlog 中，以防止数据丢失。<br>
 ### _SecondaryNameNode:_
 hadoop1.x中的，不做过多阐述
 ### _datanode:_

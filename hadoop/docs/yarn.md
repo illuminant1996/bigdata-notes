@@ -21,9 +21,9 @@ NM上具体执行任务的地方
 ## 资源管理任务调度流程
 ①首先用户在client上提交任务，这时候client会发送请求给RM，请求启动AM<br>
 ②RM会随机找一台NM启动AM，AM会划分应用为一个个的task任务，放入任务队列
-③AM会向RM请求用于执行任务的container资源
-④因为RM知道NM的资源情况，RM会返回给AM一批NM
-⑤AM会将任务分配发送到拿到的NM节点上，请求NM执行任务
+③AM会向RM请求用于执行任务的container资源   
+④因为RM知道NM的资源情况，RM会返回给AM一批NM   
+⑤AM会将任务分配发送到拿到的NM节点上，请求NM执行任务      
 ⑥NM会将任务放到container中执行，container大小可以调整
 
 ## Yarn调度器介绍
